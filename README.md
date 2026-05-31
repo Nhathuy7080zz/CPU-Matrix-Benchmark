@@ -14,17 +14,17 @@
 ## Build
 CPU Single:
 ```bash
-gcc -O3 gpu_bench.c -o gpu_bench_single.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
+gcc -O3 Single.c -o Single.exe
 ```
 
 CPU Multi:
 ```bash
-gcc -O3 gpu_bench.c -o gpu_bench_multi.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
+gcc -O3 Multi.c -o Multi.exe
 ```
 
 GPU:
 ```bash
-gcc -O3 gpu_bench.c -o gpu_bench_gpu.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
+gcc -O3 GPU.c -o GPU.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
 ```
 
 ## OpenCL-Headers
