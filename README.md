@@ -1,13 +1,13 @@
 # CPU Matrix Benchmark
 
-## Yêu cầu hệ thống
+## System Requirements
 - Windows 10/11 (64-bit)
-- CPU hỗ trợ tính toán đa luồng
-- GPU hỗ trợ OpenCL 1.2
-- Đã cài OpenCL runtime (thường đi kèm driver GPU)
-- GCC (khuyến nghị MinGW-w64/MSYS2)
+- CPU with multithreading support
+- GPU with OpenCL 1.2 support
+- OpenCL runtime installed (usually included with the GPU driver)
+- GCC (recommended: MinGW-w64/MSYS2)
 
-## Thư viện và phụ thuộc
+## Libraries and Dependencies
 - OpenCL headers: `OpenCL-Headers/`
 - OpenCL loader/runtime: `C:\Windows\System32\OpenCL.dll`
 
@@ -28,11 +28,11 @@ gcc -O3 GPU.c -o GPU.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Wi
 ```
 
 ## OpenCL-Headers
-- Nguồn: https://github.com/KhronosGroup/OpenCL-Headers
-- Repo sử dụng: `OpenCL-Headers/`
-- License: Apache License 2.0 (xem `OpenCL-Headers/LICENSE`)
+- Source: https://github.com/KhronosGroup/OpenCL-Headers
+- Used repository: `OpenCL-Headers/`
+- License: Apache License 2.0 (see `OpenCL-Headers/LICENSE`)
 
-## Ghi chú
-- Đảm bảo file nguồn `gpu_bench.c` tồn tại trong thư mục dự án trước khi biên dịch.
-- Nếu tên file nguồn hiện tại khác, hãy thay `gpu_bench.c` bằng tên file thực tế.
+## Notes
+- Make sure the source file `gpu_bench.c` exists in the project folder before compiling.
+- If the current source file name is different, replace `gpu_bench.c` with the actual file name.
 
