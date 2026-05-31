@@ -11,16 +11,20 @@
 - OpenCL headers: `OpenCL-Headers/`
 - OpenCL loader/runtime: `C:\Windows\System32\OpenCL.dll`
 
-## Biên dịch
-Sử dụng lệnh sau để biên dịch:
-CPU Single ```bash
-gcc -O3 gpu_bench.c -o gpu_bench.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
+## Build
+CPU Single:
+```bash
+gcc -O3 gpu_bench.c -o gpu_bench_single.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
 ```
-CPU Multi ```bash
-gcc -O3 gpu_bench.c -o gpu_bench.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
+
+CPU Multi:
+```bash
+gcc -O3 gpu_bench.c -o gpu_bench_multi.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
 ```
-GPU ```bash
-gcc -O3 gpu_bench.c -o gpu_bench.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
+
+GPU:
+```bash
+gcc -O3 gpu_bench.c -o gpu_bench_gpu.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
 ```
 
 ## OpenCL-Headers
