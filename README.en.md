@@ -35,4 +35,3 @@ gcc -O3 GPU.c -o GPU.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Wi
 ## Notes
 - Make sure the source file `gpu_bench.c` exists in the project folder before compiling.
 - If the current source file name is different, replace `gpu_bench.c` with the actual file name.
-
