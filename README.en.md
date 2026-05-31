@@ -1,7 +1,5 @@
 # CPU Matrix Benchmark
 
-This is the English companion to the main Vietnamese README.
-
 ## System Requirements
 - Windows 10/11 (64-bit)
 - Multi-thread capable CPU
@@ -20,9 +18,9 @@ Use the following command:
 gcc -O3 gpu_bench.c -o gpu_bench.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
 ```
 
-## OpenCL-Headers Attribution
+## OpenCL-Headers
 - Source: https://github.com/KhronosGroup/OpenCL-Headers
-- Local folder in this repository: OpenCL-Headers/
+- Repository used: OpenCL-Headers/
 - License: Apache License 2.0 (see OpenCL-Headers/LICENSE)
 
 ## Notes
