@@ -35,4 +35,3 @@ gcc -O3 GPU.c -o GPU.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Wi
 ## Ghi chú
 - Đảm bảo file nguồn `gpu_bench.c` tồn tại trong thư mục dự án trước khi biên dịch.
 - Nếu tên file nguồn hiện tại khác, hãy thay `gpu_bench.c` bằng tên file thực tế.
-
