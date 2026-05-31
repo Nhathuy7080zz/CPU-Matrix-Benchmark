@@ -13,8 +13,13 @@
 
 ## Biên dịch
 Sử dụng lệnh sau để biên dịch:
-
-```bash
+CPU Single ```bash
+gcc -O3 gpu_bench.c -o gpu_bench.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
+```
+CPU Multi ```bash
+gcc -O3 gpu_bench.c -o gpu_bench.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
+```
+GPU ```bash
 gcc -O3 gpu_bench.c -o gpu_bench.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
 ```
 
