@@ -1,7 +1,5 @@
 # CPU Matrix Benchmark
 
-README chính của dự án được viết bằng tiếng Việt. Bản tiếng Anh nằm tại `README.en.md`.
-
 ## Yêu cầu hệ thống
 - Windows 10/11 (64-bit)
 - CPU hỗ trợ tính toán đa luồng
