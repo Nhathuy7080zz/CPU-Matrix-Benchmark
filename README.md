@@ -20,9 +20,9 @@ Sử dụng lệnh sau để biên dịch:
 gcc -O3 gpu_bench.c -o gpu_bench.exe -I.\OpenCL-Headers -DCL_TARGET_OPENCL_VERSION=120 C:\Windows\System32\OpenCL.dll
 ```
 
-## Ghi công OpenCL-Headers
+## OpenCL-Headers
 - Nguồn: https://github.com/KhronosGroup/OpenCL-Headers
-- Thư mục sử dụng trong repo này: `OpenCL-Headers/`
+- Repo sử dụng: `OpenCL-Headers/`
 - License: Apache License 2.0 (xem `OpenCL-Headers/LICENSE`)
 
 ## Ghi chú
